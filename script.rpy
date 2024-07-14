@@ -47,6 +47,16 @@ label Chapter_1_OpeningCeremony:
     n "\"You meet and have greeting with a lot of people.\""
     me "(looking around)"
     n "\"You see a girl who stand alone at the corner\""
+    n "\"She looks at you.\""
+
+#First greeting1
+menu How you greeting:
+    "\"Hi can I help you?\"":
+        $bond_big_sister =+ 1
+        $fame =+ 1
+    "(...)":
+        
+    
 
 #Not join opening ceremony
 label Chapter_1_NotOpeningCeremony:
